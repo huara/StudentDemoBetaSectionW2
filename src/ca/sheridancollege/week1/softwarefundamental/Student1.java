@@ -13,6 +13,7 @@ public class Student1 {
 
     private String name;
     private int studentID;
+    private int studentAge;
 
     /**
      * @return the name
@@ -40,6 +41,20 @@ public class Student1 {
      */
     public void setStudentID(int studentID) {
         this.studentID = studentID;
+    }
+
+    /**
+     * @return the studentAge
+     */
+    public int getStudentAge() {
+        return studentAge;
+    }
+
+    /**
+     * @param studentAge the studentAge to set
+     */
+    public void setStudentAge(int studentAge) {
+        this.studentAge = studentAge;
     }
     
 }
